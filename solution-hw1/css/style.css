@@ -1,0 +1,17 @@
+#logo{
+    width: 30%;
+}
+
+#top-line{
+    width: 100%;
+    margin: auto;
+    border: solid 2px;
+}
+
+a:link{text-decoration:none;}
+
+#nav-list{
+    text-align: center;
+    margin: auto;
+    list-style-type: none;
+}
