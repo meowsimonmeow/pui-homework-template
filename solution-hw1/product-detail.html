@@ -1,15 +1,66 @@
 <!DOCTYPE html>
 <html lang="en">
-  <meta charset="UTF-8">
-  <title>Page Title</title>
+  <head>
+    <meta charset="UTF-8">
+    <title>Product Detail</title>
+    <link rel="stylesheet" href="./css/style.css">
+  </head> 
   
   <body>
+    <a href="index.html">
+      <img id="logo" src="../assets/logo/logo-01.svg"/>
+    </a>
 
-    <h1>Other Page</h1>
+    <hr id="top-line">
 
-    <p>
-        Hello!
-    </p>
+    <nav id="nav-bar">
+      <ul id="nav-list">
+        <li><a id="detail-product" href="index.html">PRODUCTS</a></li><br>
+        <li><a id="detail-cart" href="shopping-cart.html">CART</a></li>
+      </ul>
+    </nav>
+
+    <main>
+      <section>
+        <h1>Our hand-made cinnamon rolls</h1>
+      </section>
+
+      <section>
+        <img class="product-detail-image" src="../assets/products/original-cinnamon-roll.jpg" alt="Original Cinnamon Roll"/><br>
+      </section>
+
+      <section id="customize">
+        <h2>Customize our delicious hand-made cinnamon roll to your liking!</h2>
+      </section>
+
+      <section id="dropdown-section">
+        <h2><label for="cinnamon-rolls">Glazing</label></h2>
+          <select>
+            <option value="keep-original">Keep original</option>
+            <option value="sugar-milk">Sugar milk</option>
+            <option value="vanilla-milk">Vanilla milk</option>
+            <option value="double-chocolate">Double chocolate</option>
+          </select>
+        <h2><label for="pack-size">Pack size:</label></h2>
+          <select>
+            <option value="1">1</option>
+            <option value="3">3</option>
+            <option value="6">3</option>
+            <option value="12">12</option>
+          </select>
+      </section>
+
+      <section>
+        <h2>
+          <div id="cart">
+            <span id="price"> $2.49</span><button>Add to Cart</button>
+          </div>
+        </h2>
+      </section>
+
+      
+
+    </main>
 
   </body>
 </html>

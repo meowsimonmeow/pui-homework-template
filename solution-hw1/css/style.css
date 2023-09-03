@@ -1,17 +1,176 @@
 #logo{
-    width: 30%;
+    width: 400px;
+    margin: 50px;
 }
 
 #top-line{
     width: 100%;
     margin: auto;
-    border: solid 2px;
+    border: solid 3px;
 }
 
-a:link{text-decoration:none;}
+#bottom-line{
+    width: 60%;
+    margin: auto;
+    border: solid 3px;
+}
+
+a:link{
+    text-decoration:none;
+    color: black;
+}
+
+a:visited{
+    text-decoration:none;
+    color: black;
+}
+
+a:hover{
+    background-color: yellow;
+    font-weight: bold;
+}
+
+#home-product{
+    background: yellow;
+    font-weight: bold;
+}
+
+#detail-product{
+    background: yellow;
+    font-weight: bold;
+}
+
+#cart-cart{
+    background: yellow;
+    font-weight: bold;
+}
+
+.product-listings:hover {
+    background-color: yellow;
+    font-weight: bold;
+}
 
 #nav-list{
+    padding-left: 0;
+    padding-bottom: 30px;
     text-align: center;
-    margin: auto;
+    margin-top: 30px;
     list-style-type: none;
+    font-family: Trebuchet, Arial, sans-serif; 
+    font-size: 2.2em;
+    font-weight: 100;
 }
+
+h1{
+    font-family: Trebuchet, Arial, sans-serif; 
+    font-size: 2.5em;
+    font-weight: 100;
+    text-align: center;
+    margin-top: 100px;
+}
+
+h2{
+    font-family: Trebuchet, Arial, sans-serif; 
+    font-size: 2em;
+    font-weight: 100;
+}
+
+h3{
+    font-family: Trebuchet, Arial, sans-serif; 
+    font-size: 1em;
+    font-weight: 600;
+}
+
+.all-listings{
+    margin: auto;
+    width: 410px;
+}
+.product-listings{
+    width: 100%;
+    margin-top: 70px;
+    padding: 6px;
+}
+
+.product-thumbnails{
+    width: 400px;
+    border: solid 3px;
+    display: block;
+    margin: auto;
+}
+
+.product-detail-image{
+    width: 600px;
+    margin: auto;
+    border: solid 3px;
+    display: block;
+}
+
+.product-names{
+    text-align: left;
+    margin-left: 2%;
+    margin-top: 0;
+    margin-bottom: 0;
+    text-decoration: underline;
+    text-decoration-color: #474747;
+    text-decoration-thickness: 1px;
+}
+
+.product-prices{
+    text-align: left;
+    margin-left: 2%;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+button{
+    background-color: yellow;
+    padding: 5px 20px 5px 20px;
+    font-family: Trebuchet, Arial, sans-serif; 
+    font-size: 1em;
+    font-weight: 600;
+    margin-left: 30px;
+    border: solid black 2px;
+}
+
+#cart{
+    margin: auto;
+    width: 100%;
+    text-align: center;
+    font-weight: 800;
+}
+
+#customize{
+    text-align: left;
+    margin: auto;
+    width: 20%;
+}
+
+
+#dropdown-section{
+    text-align: left;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    margin: auto;
+    width: 20%;
+}
+
+.shopping-cart-image{
+    width: 200px;
+    border: solid 3px;
+    display: block;
+    margin: auto;
+}
+
+.cart-description{
+    width: 40%;
+    margin: auto;
+    text-align: center;
+    padding: 0;
+}
+
+#cart-total{
+    width: 20%;
+    margin: auto;
+    text-align: center;
+}
+
