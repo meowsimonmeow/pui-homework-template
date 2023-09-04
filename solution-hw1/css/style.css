@@ -1,6 +1,8 @@
 #logo{
     width: 400px;
-    margin: 50px;
+    margin-top: 70px;
+    margin-left: 50px;
+    margin-bottom: 50px;
 }
 
 #top-line{
@@ -53,7 +55,7 @@ a:hover{
     background-color: yellow;
 }
 
-.product-listings:hover h2{
+.product-listings:hover .product-names{
     font-weight: bold;
 } 
 
@@ -88,6 +90,11 @@ h3{
     font-family: Trebuchet, Arial, sans-serif; 
     font-size: 1em;
     font-weight: 600;
+    margin-top: 0;
+}
+
+.remove{
+    text-align: center;
 }
 
 .all-listings{
@@ -146,12 +153,13 @@ button{
     width: 100%;
     text-align: center;
     font-weight: 800;
+    padding-top: 80px;
 }
 
 #customize{
     text-align: left;
     margin: auto;
-    width: 20%;
+    width: 30%;
 }
 
 
@@ -160,7 +168,7 @@ button{
     padding-top: 40px;
     padding-bottom: 40px;
     margin: auto;
-    width: 20%;
+    width: 30%;
 }
 
 .shopping-cart-image{
@@ -178,7 +186,7 @@ button{
 }
 
 #cart-total{
-    width: 20%;
+    width: 40%;
     margin: auto;
     text-align: center;
 }
