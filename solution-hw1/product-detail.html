@@ -9,14 +9,14 @@
   <body>
     <header>
       <a href="index.html">
-        <img id="logo" src="../assets/logo/logo-01.svg"/>
+        <img id="logo" src="../assets/logo/logo-01.svg" alt="Bun Bun Bake Shop Logo">
       </a>
 
       <hr id="top-line">
 
       <nav id="nav-bar">
         <ul id="nav-list">
-          <li><a id="detail-product" href="index.html">PRODUCTS</a></li><br>
+          <li><a id="detail-product" href="index.html">PRODUCTS</a></li>
           <li><a id="detail-cart" href="shopping-cart.html">CART</a></li>
         </ul>
       </nav>
@@ -28,7 +28,7 @@
       </section>
 
       <section>
-        <img class="product-detail-image" src="../assets/products/original-cinnamon-roll.jpg" alt="Original Cinnamon Roll"/><br>
+        <img class="product-detail-image" src="../assets/products/original-cinnamon-roll.jpg" alt="Original Cinnamon Roll"><br>
       </section>
 
       <section id="customize">
@@ -36,15 +36,15 @@
       </section>
 
       <section id="dropdown-section">
-        <h2><label for="cinnamon-rolls">Glazing</label></h2>
-          <select>
+        <h2><label for="glazes">Glazing</label></h2>
+          <select name="cinnamon-rolls" id="glazes">
             <option value="keep-original">Keep original</option>
             <option value="sugar-milk">Sugar milk</option>
             <option value="vanilla-milk">Vanilla milk</option>
             <option value="double-chocolate">Double chocolate</option>
           </select>
-        <h2><label for="pack-size">Pack size:</label></h2>
-          <select>
+        <h2><label for="sizes">Pack size:</label></h2>
+          <select name="pack-size" id="sizes">
             <option value="1">1</option>
             <option value="3">3</option>
             <option value="6">3</option>
@@ -53,11 +53,9 @@
       </section>
 
       <section>
-        <h2>
           <div id="cart">
             <span id="price">$2.49</span><button>Add to Cart</button>
           </div>
-        </h2>
       </section>
 
       <footer></footer>

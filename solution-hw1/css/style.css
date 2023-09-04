@@ -60,6 +60,7 @@ a:hover{
 #nav-list{
     padding-left: 0;
     padding-bottom: 30px;
+    line-height: 2.5em;
     text-align: center;
     margin-top: 30px;
     margin-bottom: 80px;
@@ -134,7 +135,7 @@ button{
     background-color: yellow;
     padding: 5px 20px 5px 20px;
     font-family: Trebuchet, Arial, sans-serif; 
-    font-size: 1em;
+    font-size: 2em;
     font-weight: 600;
     margin: auto;
     border: solid black 2px;
@@ -192,6 +193,9 @@ button{
 
 #price{
     margin-right: 30px;
+    font-family: Trebuchet, Arial, sans-serif; 
+    font-size: 2em;
+    font-weight: 100;
 }
 
 footer{
