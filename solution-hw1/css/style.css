@@ -5,12 +5,14 @@
     margin-bottom: 50px;
 }
 
+/* This is for the top horizontal rule */
 #top-line{
     width: 100%;
     margin: auto;
     border: solid 3px;
 }
 
+/* This is for the bottom horizontal rule */
 #bottom-line{
     width: 60%;
     margin: auto;
@@ -55,6 +57,7 @@ a:hover{
     background-color: yellow;
 }
 
+/* This is for bolding the specific product names for the gallery cards */
 .product-listings:hover .product-names{
     font-weight: bold;
 } 
@@ -138,6 +141,7 @@ h3{
     margin-bottom: 0;
 }
 
+/* This is for the two buttons at the bottom of the shopping cart and product detail page */
 button{
     background-color: yellow;
     padding: 5px 20px 5px 20px;
@@ -156,6 +160,7 @@ button{
     padding-top: 80px;
 }
 
+/* This is just the product detail h2 text that is specifically left-aligned */
 #customize{
     text-align: left;
     margin: auto;
@@ -206,6 +211,7 @@ button{
     font-weight: 100;
 }
 
+/* Footer just for more space at the bottom */
 footer{
     margin-top: 200px;
 }
