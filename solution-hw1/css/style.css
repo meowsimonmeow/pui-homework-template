@@ -29,11 +29,6 @@ a:visited{
     color: black;
 }
 
-a:hover{
-    font-weight: bold;
-    background: yellow;
-}
-
 #logo{
     display: block;
 }
