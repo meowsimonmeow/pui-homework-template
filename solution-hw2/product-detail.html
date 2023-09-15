@@ -9,49 +9,55 @@
   <body>
     <header>
       <!-- This header section is for the logo and the nav bar -->
-      <a href="index.html"> 
+      <a href="index.html">
         <img id="logo" src="../assets/logo/logo-01.svg" alt="Bun Bun Bake Shop Logo">
       </a>
+      <section id="navbar-right">
+        
+        
+        <nav id="nav-bar"> 
+            <ul id="nav-list">
+              <li><a id="detail-product" href="index.html">PRODUCTS</a></li>
+              <li><a id="detail-cart" href="shopping-cart.html">CART</a></li>
+            </ul>
+        </nav>
+        <hr id="top-line">
 
-      <hr id="top-line">
+        <section>
+          <h1 id="handmade-title">Original cinnamon roll</h1>
+        </section>
 
-      <nav id="nav-bar">
-        <ul id="nav-list">
-          <li><a id="detail-product" href="index.html">PRODUCTS</a></li>
-          <li><a id="detail-cart" href="shopping-cart.html">CART</a></li>
-        </ul>
-      </nav>
+      </section>
     </header>
 
-    <main>
-      <section>
-        <h1>Original cinnamon roll</h1>
-      </section>
+
+    <main id="product-detail-listing">
 
       <section>
         <img class="product-detail-image" src="../assets/products/original-cinnamon-roll.jpg" alt="Original Cinnamon Roll"><br>
       </section>
+      <section id="product-detail-info">
+        <section id="customize">
+          <h2>Customize our delicious, hand-made cinnamon roll to your liking!</h2>
+        </section>
 
-      <section id="customize">
-        <h2>Customize our delicious, hand-made cinnamon roll to your liking!</h2>
-      </section>
-
-      <!-- I found out how to do this on https://www.w3schools.com/tags/tag_select.asp -->
-      <section id="dropdown-section"> 
-        <h2><label for="glazes">Glazing</label></h2>
-          <select name="cinnamon-rolls" id="glazes">
-            <option value="keep-original">Keep original</option>
-            <option value="sugar-milk">Sugar milk</option>
-            <option value="vanilla-milk">Vanilla milk</option>
-            <option value="double-chocolate">Double chocolate</option>
-          </select>
-        <h2><label for="sizes">Pack size:</label></h2>
-          <select name="pack-size" id="sizes">
-            <option value="1">1</option>
-            <option value="3">3</option>
-            <option value="6">3</option>
-            <option value="12">12</option>
-          </select>
+        <!-- I found out how to do this on https://www.w3schools.com/tags/tag_select.asp -->
+        <section id="dropdown-section"> 
+          <h2><label for="glazes">Glazing</label></h2>
+            <select name="cinnamon-rolls" id="glazes">
+              <option value="keep-original">Keep original</option>
+              <option value="sugar-milk">Sugar milk</option>
+              <option value="vanilla-milk">Vanilla milk</option>
+              <option value="double-chocolate">Double chocolate</option>
+            </select>
+          <h2><label for="sizes">Pack size:</label></h2>
+            <select name="pack-size" id="sizes">
+              <option value="1">1</option>
+              <option value="3">3</option>
+              <option value="6">3</option>
+              <option value="12">12</option>
+            </select>
+        </section>
       </section>
 
       <section>

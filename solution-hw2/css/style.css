@@ -7,9 +7,13 @@
 
 /* This is for the top horizontal rule */
 #top-line{
-    width: 100%;
+    width: 60%;
     margin: auto;
     border: solid 3px;
+    position: absolute;
+    top: 17%;
+    margin-left: 20px;
+
 }
 
 /* This is for the bottom horizontal rule */
@@ -66,13 +70,13 @@ a:visited{
     margin-bottom: 80px;
     list-style-type: none;
     font-family: Helvetica, Arial, sans-serif; 
-    font-size: 2.2em;
+    font-size: 1.8em;
     font-weight: 100;
 }
 
 h1{
     font-family: Helvetica, Arial, sans-serif; 
-    font-size: 2.5em;
+    font-size: 2.2em;
     font-weight: 100;
     text-align: center;
     margin-top: 0;
@@ -100,7 +104,7 @@ h3{
     width: 410px;
 }
 .product-listings{
-    width: 285px;
+    width: 291px;
     margin-top: 70px;
     padding: 6px;
 }
@@ -110,6 +114,16 @@ h3{
     border: solid 3px;
     display: block;
     margin: auto;
+}
+
+#product-detail-listing{
+    display: flex;
+}
+
+#product-detail-info{
+    display: flex;
+    flex-direction: column;
+
 }
 
 .product-detail-image{
@@ -227,13 +241,16 @@ header{
 
 #navbar-right{
     display: flex;
-    flex-wrap: wrap-reverse;
+    flex-wrap: wrap;
     width: 100%;
+
 }
 
 #nav-list{
     display: flex;
+    margin-left: 360px;
     justify-content: space-between;
+    width: 50%;
 }
 
 .carts{
@@ -245,4 +262,8 @@ header{
 
 .cart-item{
     display: flex;
+}
+
+#handmade-title{
+    margin-left: 18px;
 }
