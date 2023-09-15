@@ -84,7 +84,7 @@ h1{
 
 h2{
     font-family: Helvetica, Arial, sans-serif; 
-    font-size: 2em;
+    font-size: 1.8em;
     font-weight: 100;
 }
 
@@ -118,6 +118,7 @@ h3{
 
 #product-detail-listing{
     display: flex;
+    width: 100%;
 }
 
 #product-detail-info{
@@ -175,16 +176,94 @@ button{
 #customize{
     text-align: left;
     margin: auto;
-    width: 30%;
+    width: 65%;
 }
 
 
 #dropdown-section{
     text-align: left;
-    padding-top: 40px;
-    padding-bottom: 40px;
     margin: auto;
-    width: 30%;
+    width: 65%;
+}
+
+/* The container must be positioned relative: */
+.custom-select {
+    position: relative;
+    font-family: Arial;
+  }
+  
+  .custom-select select {
+    display: none; /*hide original SELECT element: */
+  }
+  
+  .select-selected {
+    background-color: DodgerBlue;
+  }
+  
+  /* Style the arrow inside the select element: */
+  .select-selected:after {
+    position: absolute;
+    content: "";
+    top: 14px;
+    right: 10px;
+    width: 0;
+    height: 0;
+    border: 6px solid transparent;
+    border-color: #fff transparent transparent transparent;
+  }
+  
+  /* Point the arrow upwards when the select box is open (active): */
+  .select-selected.select-arrow-active:after {
+    border-color: transparent transparent #fff transparent;
+    top: 7px;
+  }
+  
+  /* style the items (options), including the selected item: */
+  .select-items div,.select-selected {
+    color: #ffffff;
+    padding: 8px 16px;
+    border: 1px solid transparent;
+    border-color: transparent transparent rgba(0, 0, 0, 0.1) transparent;
+    cursor: pointer;
+  }
+  
+  /* Style items (options): */
+  .select-items {
+    position: absolute;
+    background-color: DodgerBlue;
+    top: 100%;
+    left: 0;
+    right: 0;
+    z-index: 99;
+  }
+  
+  /* Hide the items when the select box is closed: */
+  .select-hide {
+    display: none;
+  }
+  
+  .select-items div:hover, .same-as-selected {
+    background-color: rgba(0, 0, 0, 0.1);
+  }
+
+#glazes{
+    width: 100%;
+    padding: 10px 15px 10px 15px;
+    border: 3px solid;
+    font-family: Helvetica, Arial, sans-serif; 
+    font-size: 1.8em;
+    font-weight: 100;
+
+}
+
+
+#sizes{
+    width: 100%;
+    padding: 10px 15px 10px 15px;
+    border: 3px solid;
+    font-family: Helvetica, Arial, sans-serif; 
+    font-size: 1.8em;
+    font-weight: 100;
 }
 
 .shopping-cart-image{
@@ -202,9 +281,9 @@ button{
 }
 
 #cart-total{
-    width: 40%;
+    width: 65%;
     margin: auto;
-    text-align: center;
+    text-align: right;
 }
 
 .cart-item{
