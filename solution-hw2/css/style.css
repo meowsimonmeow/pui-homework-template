@@ -183,7 +183,7 @@ button{
 .cart-description{
     width: 40%;
     margin: auto;
-    text-align: center;
+    text-align: left;
     padding: 0;
 }
 
@@ -220,3 +220,29 @@ footer{
     justify-content: space-around;
 }
 
+header{
+    display: flex;
+    justify-content: flex-end;
+}
+
+#navbar-right{
+    display: flex;
+    flex-wrap: wrap-reverse;
+    width: 100%;
+}
+
+#nav-list{
+    display: flex;
+    justify-content: space-between;
+}
+
+.carts{
+    margin-left: 40%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.cart-item{
+    display: flex;
+}
