@@ -21,8 +21,8 @@ body{
 
 /* This is for the bottom horizontal rule */
 #bottom-line{
-    width: 60%;
-    margin: auto;
+    width: 77%;
+    margin-left: 0;
     border: solid 3px;
 }
 
@@ -80,9 +80,12 @@ h2{
 
 h3{
     font-family: Helvetica, Arial, sans-serif; 
-    font-size: 1em;
+    font-size: 18px;
     font-weight: 600;
     margin-top: 0;
+    margin-bottom: 0;
+    text-align: left;
+    text-decoration: underline;
 }
 
 .remove{
@@ -148,10 +151,14 @@ button{
     background-color: yellow;
     padding: 5px 20px 5px 20px;
     font-family: Trebuchet, Arial, sans-serif; 
-    font-size: 2em;
+    font-size: 20px;
     font-weight: 600;
-    margin: auto;
+    margin-top: 30px;
     border: solid black 2px;
+}
+
+#checkout-button{
+    margin-left: 75.1%;
 }
 
 #cart{
@@ -230,20 +237,31 @@ select{
 }
 
 .cart-description{    
-    width: 100%;
-    font-size: 24px;
+    width: 48%;
+    font-size: 20px;
+    line-height: 2.2;
     font-weight: 100;
     text-align: left;
-    padding: 0;
+    padding-bottom: 100px;
     font-family: Helvetica, Arial, sans-serif; 
     align-items: center;
     display: flex;
+    justify-content: space-between;
+    margin-left: 30px;
 }
 
-#cart-total{
-    width: 80%;
-    margin: auto;
+#cart-total-price{
+    margin-top: 30px;
+    width: 84.6%;
     text-align: right;
+    font-family: Helvetica, Arial, sans-serif; 
+    font-weight: 100;
+    font-size: 20px;
+    margin-left: 16px;
+}
+
+#price-number{
+    margin-left: 26.5%;
 }
 
 #cart-info{
@@ -252,10 +270,6 @@ select{
 
 .cart-item{
     margin-bottom: 80px;
-}
-
-#cart-total-price{
-    margin-top: 30px;
 }
 
 #price{
@@ -309,11 +323,13 @@ header{
     }
 
 .carts{
-    margin-left:40%;
+    margin-top: 50px;
+    margin-left: 36%;
 }
 
 .cart-item{
     display: flex;
+    margin-bottom: 18px;
 }
 
 .cart-price{
