@@ -11,7 +11,7 @@
     margin: auto;
     border: solid 3px;
     position: absolute;
-    top: 17%;
+    top: 12%;
     margin-left: 20px;
 
 }
@@ -165,9 +165,8 @@ button{
 }
 
 #cart{
-    margin: auto;
+    margin-left: 16%;
     width: 100%;
-    text-align: center;
     font-weight: 800;
     padding-top: 80px;
 }
@@ -175,8 +174,10 @@ button{
 /* This is just the product detail h2 text that is specifically left-aligned */
 #customize{
     text-align: left;
-    margin: auto;
+    margin-left: 12%;
     width: 65%;
+    margin-top: 0%;
+    margin-bottom: 20px;
 }
 
 
@@ -190,7 +191,7 @@ select{
 .select-wrapper{
     position: relative;
     width: 60%;
-    margin-left: 17%;
+    margin-left: 12%;
 }
   
 .select-wrapper::after{
@@ -207,7 +208,7 @@ select{
     
 
 .dropdown-name{
-    margin-left: 17%;
+    margin-left: 12%;
 }
 
 #glazes{
