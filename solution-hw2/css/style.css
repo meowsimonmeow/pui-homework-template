@@ -162,7 +162,7 @@ button{
 }
 
 #cart{
-    margin-left: 18%;
+    margin-left: 31%;
     font-weight: 800;
     padding-top: 80px;
 }
@@ -275,8 +275,8 @@ select{
 #price{
     margin-right: 30px;
     font-family: Trebuchet, Arial, sans-serif; 
-    font-size: 2em;
-    font-weight: 100;
+    font-size: 22px;
+    font-weight: 600;
 }
 
 /* Footer just for more space at the bottom */
