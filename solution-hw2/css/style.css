@@ -11,7 +11,7 @@
     margin: auto;
     border: solid 3px;
     position: absolute;
-    top: 12%;
+    top: 23%;
     margin-left: 20px;
 
 }
@@ -197,10 +197,10 @@ select{
 .select-wrapper::after{
     content: "";
     position: absolute;
-    width: 25px;
-    height: 20px;
+    width: 35px;
+    height: 30px;
     background-color: rgb(0, 0, 0);
-    right: 10px;
+    right: 15px;
     top: calc(50% - 5px);
     pointer-events: none;
     clip-path: polygon(0% 0%, 100% 0%, 50% 50%);
