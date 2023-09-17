@@ -1,3 +1,7 @@
+body{
+    margin: 0;
+}
+
 #logo{
     width: 400px;
     margin-top: 70px;
@@ -7,13 +11,12 @@
 
 /* This is for the top horizontal rule */
 #top-line{
-    width: 60%;
+    width: calc(100% - 20px - 3px);
     margin: auto;
     border: solid 3px;
     position: absolute;
-    top: 23%;
+    top: calc(50% - 3px);
     margin-left: 20px;
-
 }
 
 /* This is for the bottom horizontal rule */
@@ -61,19 +64,6 @@ a:visited{
     font-weight: bold;
 } 
 
-#nav-list{
-    padding-left: 0;
-    padding-bottom: 30px;
-    line-height: 2.5em;
-    text-align: center;
-    margin-top: 30px;
-    margin-bottom: 80px;
-    list-style-type: none;
-    font-family: Helvetica, Arial, sans-serif; 
-    font-size: 1.8em;
-    font-weight: 100;
-}
-
 h1{
     font-family: Helvetica, Arial, sans-serif; 
     font-size: 2.2em;
@@ -118,7 +108,7 @@ h3{
 
 #product-detail-listing{
     display: flex;
-    width: 100%;
+    margin-left: 100px;
 }
 
 #product-detail-info{
@@ -165,8 +155,7 @@ button{
 }
 
 #cart{
-    margin-left: 16%;
-    width: 100%;
+    margin-left: 18%;
     font-weight: 800;
     padding-top: 80px;
 }
@@ -175,7 +164,7 @@ button{
 #customize{
     text-align: left;
     margin-left: 12%;
-    width: 65%;
+    width: 80%;
     margin-top: 0%;
     margin-bottom: 20px;
 }
@@ -190,7 +179,7 @@ select{
 }
 .select-wrapper{
     position: relative;
-    width: 60%;
+    width: 72%;
     margin-left: 12%;
 }
   
@@ -240,17 +229,21 @@ select{
     margin: auto;
 }
 
-.cart-description{
-    width: 40%;
-    margin: auto;
+.cart-description{    font-family: Helvetica, Arial, sans-serif; 
+    font-size: 24px;
+    font-weight: 100;
     text-align: left;
     padding: 0;
 }
 
 #cart-total{
-    width: 65%;
+    width: 80%;
     margin: auto;
     text-align: right;
+}
+
+#cart-info{
+    display: flex;
 }
 
 .cart-item{
@@ -289,27 +282,48 @@ header{
     display: flex;
     flex-wrap: wrap;
     width: 100%;
-
+    position: relative;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 #nav-list{
     display: flex;
     margin-left: 360px;
-    justify-content: space-between;
+    justify-content: flex-end;
     width: 50%;
-}
+    padding-left: 0;
+    padding-bottom: 30px;
+    line-height: 2.5em;
+    text-align: center;
+    margin-top: 65px;
+    margin-bottom: 80px;
+    list-style-type: none;
+    font-family: Helvetica, Arial, sans-serif; 
+    font-size: 1.8em;
+    font-weight: 100;
+    }
 
 .carts{
     margin-left:40%;
-    display: flex;
-    flex-wrap: wrap;
 }
 
 .cart-item{
     display: flex;
 }
 
-#handmade-title{
-    margin-left: 18px;
+.cart-price{
+    text-align: right;
 }
 
+
+#handmade-title{
+    margin-left: 18px;
+    text-align: left;
+    margin-bottom: 55px;
+}
+
+#home-cart, #cart-cart, #detail-cart{
+    margin-left: 60px;
+    margin-right: 60px;
+}
