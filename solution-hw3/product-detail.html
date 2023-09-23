@@ -54,7 +54,7 @@
           <h2 class="dropdown-name"><label for="sizes">Pack size:</label></h2>
           <div class="select-wrapper">
             <!-- these select tags have been modified with the provided skeleton code changes -->
-            <select name="pack-size" id="sizes" >
+            <select name="pack-size" id="sizes" onchange="sizeChange(this)">
               
             </select>
           </div>
@@ -62,7 +62,7 @@
 
         <section>
           <div id="cart">
-            <span id="price"></span><button>Add to Cart</button>
+            <span id="price">$2.49</span><button>Add to Cart</button>
           </div>
         </section>
 

@@ -49,19 +49,24 @@ function updateOptions(){
 
 //this is modified from the provided skeleton code
 function glazingChange(element) {
-    // get value of selected glazing option
-    const priceChange = element.value;
+
+    const priceChange = parseFloat(element.value);
     
     let basePrice = 2.49
     let rollPrice = document.querySelector("#price");
-    rollPrice.innerHTML = (basePrice + priceChange) * document.querySelector("#sizes").value;
+    rollPrice.innerHTML = "$" + (Math.round(((basePrice + priceChange) * document.querySelector("#sizes").value) * 100)/100).toFixed(2);
   }  
 
-// function updatePrice() {
-//     let basePrice = 2.49
-//     let rollPrice = document.querySelector("#price");
-//     rollPrice.innerHTML = (basePrice + glazingPrice) * packPrice;
-// }
+function sizeChange(element) {
+
+    const sizeMultiplier = parseFloat(element.value);
+    
+    let basePrice = 2.49
+    let rollPrice = document.querySelector("#price");
+    rollPrice.innerHTML = "$" + (Math.round(((basePrice + parseFloat(document.querySelector("#glazes").value)) * sizeMultiplier) * 100)/100).toFixed(2);
+  }  
+
+
 
 window.addEventListener("load", function() {
     updateOptions();
