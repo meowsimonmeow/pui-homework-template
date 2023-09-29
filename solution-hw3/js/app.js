@@ -1,3 +1,9 @@
+let cart = [];
+
+
+
+
+
 let allRolls = [
     {
         type: "Keep original",
@@ -70,4 +76,6 @@ function sizeChange(element) {
 
 window.addEventListener("load", function() {
     updateOptions();
+
 });
+
