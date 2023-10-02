@@ -78,7 +78,14 @@ function sizeChange(element) {
   }  
 
 function addToCart(){
-    let cartRoll = new Roll(rollType, document.querySelector("#glazes"), document.querySelector("#sizes").value, currentRollBasePrice)
+    //found the way to get the glazeSelectorText here: https://stackoverflow.com/questions/14976495/get-selected-option-text-with-javascript
+    let glazeSelector = document.querySelector("#glazes");
+    let glazeSelectorText= glazeSelector.options[glazeSelector.selectedIndex].text;
+
+    let sizeSelector = document.querySelector("#sizes");
+    let sizeSelectorText= sizeSelector.options[sizeSelector.selectedIndex].text;
+
+    let cartRoll = new Roll(rollType, glazeSelectorText, sizeSelectorText, currentRollBasePrice)
     cart.push(cartRoll);
     console.log(cart);
 }
