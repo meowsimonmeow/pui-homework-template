@@ -71,7 +71,6 @@ function calculateTotalPrice(){
  function removeItem(index){
     cart.splice(index, 1);
     document.querySelector("#price-number").innerText = calculateTotalPrice();
-    console.log(document.querySelector(".carts").children);
     displayCart();
  }
 
