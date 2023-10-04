@@ -51,13 +51,10 @@ function calculateTotalPrice(){
     for(let i = 0; i < cart.length; i++){
         sum += parseFloat(cartCalculatedPrice(cart[i]));
     }
-    return sum
+    return "$ " + sum.toFixed(2);
 }
 
- displayCartRoll(cart[0], 0);
- displayCartRoll(cart[1], 1);
- displayCartRoll(cart[2], 2);
- displayCartRoll(cart[3], 3);
+ displayCart();
  document.querySelector("#price-number").innerText = calculateTotalPrice();
 
  function displayCart(){
@@ -75,7 +72,7 @@ function calculateTotalPrice(){
     cart.splice(index, 1);
     document.querySelector("#price-number").innerText = calculateTotalPrice();
     console.log(document.querySelector(".carts").children);
-    displayCart()
+    displayCart();
  }
 
 
