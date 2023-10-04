@@ -1,0 +1,349 @@
+body{
+    margin: 0;
+}
+
+#logo{
+    width: 400px;
+    margin-top: 70px;
+    margin-left: 50px;
+    margin-bottom: 50px;
+}
+
+/* This is for the top horizontal rule */
+#top-line{
+    width: calc(100% - 20px - 3px);
+    margin: auto;
+    border: solid 3px;
+    position: absolute;
+    top: calc(50% - 3px);
+    margin-left: 20px;
+}
+
+/* This is for the bottom horizontal rule */
+#bottom-line{
+    width: 77%;
+    margin-left: 0;
+    border: solid 3px;
+}
+
+a:link{
+    text-decoration:none;
+    color: black;
+}
+
+a:visited{
+    text-decoration:none;
+    color: black;
+}
+
+#logo{
+    display: block;
+}
+
+#home-product{
+    background: yellow;
+    font-weight: bold;
+}
+
+#detail-product{
+    background: yellow;
+    font-weight: bold;
+}
+
+#cart-cart{
+    background: yellow;
+    font-weight: bold;
+}
+
+.product-listings:hover{
+    background-color: yellow;
+}
+
+/* This is for bolding the specific product names for the gallery cards */
+.product-listings:hover .product-names{
+    font-weight: bold;
+} 
+
+h1{
+    font-family: Helvetica, Arial, sans-serif; 
+    font-size: 2.2em;
+    font-weight: 100;
+    text-align: center;
+    margin-top: 0;
+}
+
+h2{
+    font-family: Helvetica, Arial, sans-serif; 
+    font-size: 1.8em;
+    font-weight: 100;
+}
+
+h3{
+    font-family: Helvetica, Arial, sans-serif; 
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 0;
+    margin-bottom: 0;
+    text-align: left;
+    text-decoration: underline;
+}
+
+.remove{
+    text-align: center;
+}
+
+.all-listings{
+    margin: auto;
+    width: 410px;
+}
+.product-listings{
+    width: 291px;
+    margin-top: 30px;
+    padding: 6px;
+}
+
+.product-thumbnails{
+    width: 285px;
+    border: solid 3px;
+    display: block;
+    margin: auto;
+}
+
+#product-detail-listing{
+    display: flex;
+    margin-left: 100px;
+}
+
+#product-detail-info{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.product-detail-image{
+    width: 600px;
+    margin: auto;
+    border: solid 3px;
+    display: block;
+}
+
+.product-names{
+    text-align: left;
+    margin-left: 2%;
+    margin-top: 0;
+    margin-bottom: 0;
+    text-decoration: underline;
+    text-decoration-color: #474747;
+    text-decoration-thickness: 1px;
+    font-size: 24px;
+}
+
+.product-prices{
+    text-align: left;
+    margin-left: 2%;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 24px;
+}
+
+/* This is for the two buttons at the bottom of the shopping cart and product detail page */
+button{
+    background-color: yellow;
+    padding: 5px 20px 5px 20px;
+    font-family: Trebuchet, Arial, sans-serif; 
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 30px;
+    border: solid black 2px;
+}
+
+#checkout-button{
+    margin-left: 75.1%;
+}
+
+#cart{
+    margin-left: 31%;
+    font-weight: 800;
+    padding-top: 80px;
+}
+
+/* This is just the product detail h2 text that is specifically left-aligned */
+#customize{
+    text-align: left;
+    margin-left: 12%;
+    width: 80%;
+    margin-top: 0%;
+    margin-bottom: 20px;
+}
+
+
+/* did the arrow styling with the help of this site:
+https://moderncss.dev/custom-select-styles-with-pure-css/ */
+select{
+    appearance: none;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+}
+.select-wrapper{
+    position: relative;
+    width: 72%;
+    margin-left: 12%;
+}
+  
+.select-wrapper::after{
+    content: "";
+    position: absolute;
+    width: 35px;
+    height: 30px;
+    background-color: rgb(0, 0, 0);
+    right: 15px;
+    top: calc(50% - 5px);
+    pointer-events: none;
+    clip-path: polygon(0% 0%, 100% 0%, 50% 50%);
+}
+    
+
+.dropdown-name{
+    margin-left: 12%;
+}
+
+#glazes{
+    display: block;
+    width: 100%;
+    padding: 10px 15px 10px 15px;
+    border: 3px solid;
+    font-family: Helvetica, Arial, sans-serif; 
+    font-size: 1.8em;
+    font-weight: 100;
+
+}
+
+
+#sizes{
+    display: block;
+    width: 100%;
+    padding: 10px 15px 10px 15px;
+    border: 3px solid;
+    font-family: Helvetica, Arial, sans-serif; 
+    font-size: 1.8em;
+    font-weight: 100;
+}
+
+.shopping-cart-image{
+    width: 200px;
+    border: solid 3px;
+    display: block;
+    margin: auto;
+}
+
+.cart-description{    
+    width: 48%;
+    font-size: 20px;
+    line-height: 2.2;
+    font-weight: 100;
+    text-align: left;
+    padding-bottom: 100px;
+    font-family: Helvetica, Arial, sans-serif; 
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 30px;
+}
+
+#cart-total-price{
+    margin-top: 30px;
+    width: 84.6%;
+    text-align: right;
+    font-family: Helvetica, Arial, sans-serif; 
+    font-weight: 100;
+    font-size: 20px;
+    margin-left: 16px;
+}
+
+#price-number{
+    margin-left: 26.5%;
+}
+
+#cart-info{
+    display: flex;
+}
+
+.cart-item{
+    margin-bottom: 80px;
+}
+
+#price{
+    margin-right: 30px;
+    font-family: Trebuchet, Arial, sans-serif; 
+    font-size: 22px;
+    font-weight: 600;
+}
+
+/* Footer just for more space at the bottom */
+footer{
+    margin-top: 200px;
+}
+
+.all-listings{
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+header{
+    display: flex;
+    justify-content: flex-end;
+}
+
+#navbar-right{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    position: relative;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#nav-list{
+    display: flex;
+    margin-left: 360px;
+    justify-content: flex-end;
+    width: 50%;
+    padding-left: 0;
+    padding-bottom: 30px;
+    line-height: 2.5em;
+    text-align: center;
+    margin-top: 65px;
+    margin-bottom: 80px;
+    list-style-type: none;
+    font-family: Helvetica, Arial, sans-serif; 
+    font-size: 1.8em;
+    font-weight: 100;
+    }
+
+.carts{
+    margin-top: 50px;
+    margin-left: 36%;
+}
+
+.cart-item{
+    display: flex;
+    margin-bottom: 18px;
+}
+
+.cart-price{
+    text-align: right;
+}
+
+
+#handmade-title{
+    margin-left: 18px;
+    text-align: left;
+    margin-bottom: 55px;
+}
+
+#home-cart, #cart-cart, #detail-cart{
+    margin-left: 60px;
+    margin-right: 60px;
+}

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Shopping Cart</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <script defer src="./js/rollsData.js"></script>
+    <script defer src="./js/cart.js"></script>
+  </head> 
+  
+  <body>
+    <header>
+      <!-- This header section is for the logo and the nav bar -->
+      <a href="index.html">
+        <img id="logo" src="../assets/logo/logo-01.svg" alt="Bun Bun Bake Shop Logo">
+      </a>
+      <section id="navbar-right">
+        
+        
+        <nav id="nav-bar"> 
+            <ul id="nav-list">
+              <li><a id="cart-product" href="index.html">PRODUCTS</a></li>
+              <li><a id="cart-cart" href="shopping-cart.html">CART</a></li>
+            </ul>
+        </nav>
+        <hr id="top-line">
+
+        <section>
+          <h1 id="handmade-title">Shopping cart</h1>
+        </section>
+
+      </section>
+    </header>
+
+    <main>
+      <section class="carts">
+
+      </section>
+
+      <section id="cart-total">
+        <div id="cart-total-price">
+          <span id="total-word">Total:</span> 
+          <span id="price-number">$ 29.94</span>     
+      </section>
+      <button id="checkout-button">Checkout</button>
+
+      <!-- Empty footer just for more space (styled in CSS) -->
+      <footer></footer>
+
+    </main>
+
+    <template id="cart-item-template">
+      <section class="cart-item">
+        <div>
+            <img class="shopping-cart-image" src="../assets/products/double-chocolate-cinnamon-roll.jpg" alt="Double Chocolate Cinnamon Roll"><br>
+            <div class="remove"><h3>Remove</h3></div>
+        </div>
+        <div class="cart-description">
+              <div class="cart-info">
+                <div class="cart-name">Double Chocolate Cinnamon Roll</div>
+                <div class="cart-glaze">Glazing: Sugar milk</div>
+                <div class="cart-pack">Pack Size: 6</div>
+              </div>
+              <div class="cart-price">$ 27.45</div>
+        </div>
+      </section>
+
+    </template>
+
+  </body>
+</html>
